@@ -1,0 +1,170 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+  background: #fff;
+  color: #000000;
+  line-height: 1.5;
+  font-size: 14px;
+}
+
+img:not(.logo) {
+  width: 100%;
+}
+
+img {
+  display: block;
+}
+
+h3 {
+  font-size: 20px;
+  margin-bottom: 12px;
+}
+
+h4 {
+  font-size: 14px;
+  line-height: 12px;
+  text-transform: capitalize;
+  letter-spacing: 5px;
+}
+
+@media screen and (min-width: 800px) {
+  h1 {
+    font-size: 64px;
+  }
+
+  h2 {
+    font-size: 40px;
+  }
+
+  h3 {
+    font-size: 28px;
+  }
+
+  h4 {
+    font-size: 16px;
+  }
+  body {
+    font-size: 16px;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    line-height: 1;
+  }
+
+  .gift-info p {
+    color: #48647f;
+  }
+}
+/*  global classes */
+
+.btn {
+  text-transform: uppercase;
+  border-radius: 8px;
+  background: transparent;
+  color: #222;
+  padding: 6px 12px;
+  letter-spacing: 0.25px;
+  display: inline-block;
+  transition: all 0.3s linear;
+  font-size: 14px;
+  border: 2px solid #222;
+  cursor: pointer;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+.btn:hover {
+  color: #fff;
+  background: #222;
+}
+/* section */
+.section {
+  padding: 80px 0;
+}
+
+.section-center {
+  width: 90vw;
+  margin: 80px auto;
+  max-width: 1170px;
+}
+
+main {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+.hero-img {
+  margin-bottom: 32px;
+}
+
+.hero-img img {
+  border-radius: 7px;
+}
+
+.gift-info h3 {
+  text-transform: uppercase;
+  color: #121212;
+}
+
+.gift-info p {
+  color: #48647f;
+}
+
+.date {
+  color: #231414;
+  font-size: 14px;
+}
+
+@media screen and (min-width: 992px) {
+  .section-center {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+    gap: 48px;
+    width: 95vw;
+  }
+
+  .hero-img {
+    margin-bottom: 0;
+  }
+}
+
+.gift-info p {
+  margin: 32px 0;
+}
+
+.deadline {
+  display: flex;
+}
+
+.deadline-format {
+  background: #121212;
+  color: #fff;
+  margin-right: 16px;
+  width: 80px;
+  height: 80px;
+  display: grid;
+  place-items: center;
+  text-align: center;
+  border-radius: 4px;
+}
+
+.deadline-format span {
+  display: block;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 14px;
+}
+
+.deadline h4 {
+  font-size: 32px;
+  margin-bottom: 8px;
+  letter-spacing: 0.25px;
+}
